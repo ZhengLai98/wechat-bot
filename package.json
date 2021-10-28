@@ -1,0 +1,34 @@
+{
+  "name": "wechat-bot",
+  "version": "1.0.0",
+  "description": "一个基于wechaty的机器人",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengLai98/wechat-bot.git"
+  },
+  "keywords": [
+    "wechaty",
+    "聊天机器人"
+  ],
+  "author": "ZhengDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengLai98/wechat-bot/issues"
+  },
+  "homepage": "https://github.com/ZhengLai98/wechat-bot#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "urlencode": "^1.1.0",
+    "wechaty": "^0.68.1",
+    "wechaty-puppet-padlocal": "^0.4.2",
+    "wechaty-puppet-wechat": "^0.30.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
